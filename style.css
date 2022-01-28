@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: "Poiret One", Arial, Helvetica, sans-serif;
+    color: yellow;
+    line-height: 1.6;
+    background-color: rgb(8, 8, 8);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+    opacity: 30%;
+}
+
+.image-container {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: black;
+}
+
+#landing {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.image-container img {
+    width: 75%;
+    max-height: auto;
+}
+
+.image-container p {
+    color: rgb(255, 255, 255);
+    max-width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    padding: 20px;
+    font-size: large;
+}
+
+/* navigation  */
+
+.navigation {
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation a {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navigation a:hover {
+    background-color: rgba(255, 255, 0, .5);
+    transition: .2s ease-in-out;
+}
+
+.navigation .flex {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* footer  */
+
+.footer {
+    font-size: xx-large;
+    height: 70px;
+    background-color: black;
+    position: relative;
+    max-height: 100vh;
+}
+
+.footer ul {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.links {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.footer .flex {
+    justify-content: space-between;
+}
+
+.footer li {
+    cursor: pointer;
+}
+
+.footer li:hover {
+    color: rgb(116, 116, 24);
+}
