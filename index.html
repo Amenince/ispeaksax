@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
     <title>ISpeakSax</title>
 </head>
+
 <body>
-<header>
-    <div class="navigation">
+
+    <section class="navigation">
         <!-- ISpeakSax, Home, About, Content -->
-        <div class="container flex">
+        <div class="nav-bar">
             <h1 class="brand">ISpeakSax</h1>
             <nav>
                 <ul>
@@ -23,24 +26,25 @@
                 </ul>
             </nav>
         </div>
+    </section>
 
-        
-    </div>
 
     <section class="home">
+        <img src="Sax Pic.jpg" alt="Me playing the saxophone" class="sax" width="1920" height="1080">
         <!-- Title page with picture background -->
-        <div class="image-container flex">
-            <img src="Sax Pic.jpg" alt="Me playing the saxophone" id="sax">
+        <div class="home-text">
             <h1 id="landing">Welcome to my site</h1>
             <p id="landing-para">Where you'll get to know more about me</p>
         </div>
-
     </section>
 
     <section class="about">
         <!-- Summary of everything I do -->
-        <p>Hello, my name is Anthony Cook. I'm also known as ISpeakSax, Vynul or Amenince depending on the platform. I am a Musician, Artist, Developer, and have 5 years of experience in the dental field. Specifically manufacturing Orthodontic appliances such as fixed and removable appliances and clear aligners.</p>
-        <p>I have been a Musician for 20 years, an artist for 25 years and have slowly been learning development for the past 3 years. Check out some of my work down below.</p>
+        <p>Hello, my name is Anthony Cook. I'm also known as ISpeakSax, Vynul or Amenince depending on the platform.
+            I am a Musician, Artist, Developer, and have 5 years of experience in the dental field. Specifically
+            manufacturing Orthodontic appliances such as fixed and removable appliances and clear aligners.</p>
+        <p>I have been a Musician for 20 years, an artist for 25 years and have slowly been learning development for
+            the past 3 years. Check out some of my work down below.</p>
 
     </section>
 
@@ -50,25 +54,32 @@
             <h2 class="projects">
                 Projects
             </h2>
-            <div class="card-container flex">
+            <div class="card-container">
                 <div class="card">
-                    <h4>Orbit Report</h4>
-                    <img src="Orbit Report.png" alt="Orbit Report Project" width="100%">
+                    <a href="https://amenince.github.io/orbit-report/" target="_blank">
+                        <h4>Orbit Report</h4>
+                        <img src="Orbit Report.png" alt="Orbit Report Project" width="100%">
+                    </a>
                 </div>
                 <div class="card">
-                    <h4>Launch Checklist Form</h4>
-                    <img src="Launch Checklist Form.png" alt="Launch Checklist Form" width="100%" height="175px">
+                    <a href="https://amenince.github.io/Launch-Checklist-Form/" target="_blank">
+                        <h4>Launch Checklist Form</h4>
+                        <img src="Launch Checklist Form.png" alt="Launch Checklist Form" width="100%" height="175px">
+                    </a>
                 </div>
                 <div class="card">
-                    <h4>Lib U Challenge</h4>
-                    <img src="Liberty University Code Challenge 4.png" alt="Liberty University Challenge" width="100%" height="175px">
+                    <a href="https://amenince.github.io/lib-u-challenge/" target="_blank">
+                        <h4>Lib U Challenge</h4>
+                        <img src="Liberty University Code Challenge 4.png" alt="Liberty University Challenge"
+                            width="100%" height="175px">
+                    </a>
                 </div>
             </div>
         </div>
 
         <div class="music">
             <h2 class="music-text">Music</h2>
-    
+
         </div>
 
         <div class="art">
@@ -77,18 +88,21 @@
 
     </section>
 
-    <footer class="footer">
-        <!-- Instagram, Twitter, Facebook, LinkedIn -->
-        <ul class="links flex">
-            <li><i class="fab fa-instagram-square"></i></li>
-            <li><i class="fab fa-twitter-square"></i></li>
-            <li><i class="fab fa-facebook-square"></i></li>
-            <li><i class="fab fa-linkedin"></i></li>
-        </ul>
-        
-    </footer>
+    <section class="footer">
+        <footer class="foot-container">
+            <!-- Instagram, Twitter, Facebook, LinkedIn -->
+            <nav>
+                <ul class="links">
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-linkedin"></i></li>
+                </ul>
+            </nav>
+        </footer>
+    </section>
 
-</header>
 </body>
 <script type="text/javascript" src="main.js"></script>
+
 </html>
