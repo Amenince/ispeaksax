@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="javascript" defer href="main.js">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
@@ -20,16 +21,17 @@
             <h1 class="brand">ISpeakSax</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="content.html">Content</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#content">Content</a></li>
+                    <li><a href="#links">Links</a></li>
                 </ul>
             </nav>
         </div>
     </section>
 
 
-    <section class="home">
+    <section class="home" id="home">
         <img src="Sax Pic.jpg" alt="Me playing the saxophone" class="sax" width="1920" height="1080">
         <!-- Title page with picture background -->
         <div class="home-text">
@@ -38,22 +40,39 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <!-- Summary of everything I do -->
-        <p>Hello, my name is Anthony Cook. I'm also known as ISpeakSax, Vynul or Amenince depending on the platform.
-            I am a Musician, Artist, Developer, and have 5 years of experience in the dental field. Specifically
-            manufacturing Orthodontic appliances such as fixed and removable appliances and clear aligners.</p>
-        <p>I have been a Musician for 20 years, an artist for 25 years and have slowly been learning development for
-            the past 3 years. Check out some of my work down below.</p>
+        <p>Hello, my name is Anthony Cook. I have a variety of skills that I've learned over the years. These skills
+            include, but aren't limited to: Web development, Audio Engineering, Music performance, Art, and even
+            orthodontic appliance manufacturing. I'll go into detail of most of those now.</p>
+        <p>For about the last 2 years I've been learning more and more about web development. I have a combination of
+            self taught skills as well as having gone through a code bootcamp called LaunchCode. There I was exposed to
+            different languages, frameworks and libraries. Front-end consisted of HTML, CSS, JavaScript, TypeScript,
+            Angular, node.js, unit testing with Jasmine.js and using fetch. Back-end was focused more on Java and JUnit
+            for unit testing. Afterwards, I started dabbling with Python, PHP, and React, though I haven't used them
+            sufficiently in my personal projects. I've loved being able to create things with code and I can't wait to
+            grow more as a developer. </p>
+        <p>Music is a huge passion of mine. For the last 20 years I've been playing alto, tenor and soprano saxophone.
+            I've recorded my own original songs and have collaborated on nearly a hundred projects with musicians from
+            around the world. I've also gotten into rapping and singing to add to my musical skillset. Audio engineering
+            I learned completely on my own and have spent the last 14 years refining my craft.</p>
+        <p>The artwork that I've created over the years varies from photo manipulations to drawings to designing.
+            Digital art became a huge thing for me in the past decade and I've created a lot of work that I'm proud of.
+            I've progressed so much as an artist. Procreate on the iPad is my preferred method of drawing. Being able to
+            create artwork anywhere has been amazing!</p>
+        <p>Now that you've learned a little about me, check out some of my work down below.</p>
 
     </section>
 
-    <section class="content">
+    <section class="content" id="content">
         <!-- Subsection of Dev content, Music, and art -->
         <div class="web">
             <h2 class="projects">
                 Projects
             </h2>
+            <a href="https://github.com/Amenince/" target="_blank">
+                <li><i class="fab fa-github-square"></i></li>
+            </a>
             <div class="card-container">
                 <div class="card">
                     <a href="https://amenince.github.io/orbit-report/" target="_blank">
@@ -79,24 +98,62 @@
 
         <div class="music">
             <h2 class="music-text">Music</h2>
-
+            <a href="https://www.youtube.com/c/ispeaksax" target="_blank">
+                <li><i class="fab fa-youtube-square"></i></li>
+            </a>
+            <div class="music-container">
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=2vs6IHyzeOs" target="_blank">
+                        <h4>Dance Monkey - Sax Cover</h4>
+                        <img src="Dance Monkey Cover.png" alt="">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=L5eUDcwKcqo" target="_blank">
+                        <h4>Like I'm Gonna Lose You - Sax Cover</h4>
+                        <img src="Like I'm Gonna Lose You - Sax Cover.png" alt="">
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.youtube.com/watch?v=a9vd3JEE-C0" target="_blank">
+                        <h4>Soul with a Capital "S" - Sax Cover</h4>
+                        <img src="Soul with a Capital S - Cover.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div class="art">
             <h2 class="art-text">Art</h2>
+            <div class="art-container">
+                <img src="Purple Girl.PNG" alt="" width="300px" height="400px">
+                <img src="Cat.PNG" alt="" width="300px" height="400px">
+                <img src="Seahorse.JPG" alt="" width="300px" height="400px">
+                <img src="Portrait.jpg" alt="" width="300px" height="400px">
+                <img src="Gentleman.JPG" alt="" width="300px" height="400px">
+                <img src="Pink Girl.PNG" alt="" width="300px" height="400px">
+            </div>
         </div>
 
     </section>
 
-    <section class="footer">
+    <section class="footer" id="links">
         <footer class="foot-container">
             <!-- Instagram, Twitter, Facebook, LinkedIn -->
             <nav>
                 <ul class="links">
-                    <li><i class="fab fa-instagram-square"></i></li>
-                    <li><i class="fab fa-twitter-square"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
+                    <a href="https://www.instagram.com/ispeaksax/" target="_blank">
+                        <li><i class="fab fa-instagram-square"></i></li>
+                    </a>
+                    <a href="https://www.twitter.com/ispeaksax/" target="_blank">
+                        <li><i class="fab fa-twitter-square"></i></li>
+                    </a>
+                    <a href="https://www.facebook.com/ispeaksax/" target="_blank">
+                        <li><i class="fab fa-facebook-square"></i></li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anthonyscook/" target="_blank">
+                        <li><i class="fab fa-linkedin"></i></li>
+                    </a>
                 </ul>
             </nav>
         </footer>
