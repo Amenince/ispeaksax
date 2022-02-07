@@ -99,6 +99,7 @@ body {
 .about {
   background-color: rgb(94, 82, 15);
   width: 100vw;
+  padding: 20px;
 }
 
 .about p {
