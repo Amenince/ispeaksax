@@ -183,8 +183,8 @@ h2 {
   transition: 0.2s ease-in-out;
 }
 
-.card {
-  /* padding: 20px; */
+.card-container > .card {
+  background-color: red;
   background: linear-gradient(
     120deg,
     rgba(185, 160, 20, 0.671),
@@ -193,9 +193,28 @@ h2 {
   color: white;
   display: flex;
   flex-direction: column;
+  place-items: space-between;
   width: 300px;
   margin: 20px;
-  place-content: space-between;
+  border: 1px solid rgba(255, 255, 0, 0.37);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 0, 0.158);
+  opacity: 60%;
+}
+
+.music-container > .card {
+  background-color: red;
+  background: linear-gradient(
+    120deg,
+    rgba(185, 160, 20, 0.671),
+    rgba(255, 255, 0, 0.74)
+  );
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  place-items: flex-end;
+  width: 300px;
+  margin: 20px;
   border: 1px solid rgba(255, 255, 0, 0.37);
   border-radius: 10px;
   box-shadow: 1px 1px 10px rgba(255, 255, 0, 0.158);
@@ -218,7 +237,6 @@ h2 {
   width: 100%;
   object-fit: cover;
   border-radius: 0 0 10px 10px;
-  /* opacity: 60%; */
 }
 
 .card a {
